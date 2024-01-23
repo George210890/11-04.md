@@ -7,7 +7,7 @@
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq1.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq1.png)
 
 ---
 
@@ -28,9 +28,9 @@ $ pip install pika
 
 *В качестве решения домашнего задания приложите оба скриншота, сделанных на этапе выполнения.*
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq2.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq2.png)
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq3.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq3.png)
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
 ---
@@ -52,9 +52,9 @@ $ cat /etc/hosts
 
 *В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.*
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq4.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq4.png)
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq5.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq5.png)
 
 Также приложите вывод команды с двух нод:
 
@@ -62,9 +62,9 @@ $ cat /etc/hosts
 $ rabbitmqctl cluster_status
 ```
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq6.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq6.png)
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq7.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq7.png)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
@@ -72,16 +72,16 @@ $ rabbitmqctl cluster_status
 $ rabbitmqadmin get queue='hello'
 ```
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq8.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq8.png)
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq9.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq9.png)
 
 
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
 
-![rabbitmq](https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/img/rabbitmq10.png)
+![rabbitmq](https://github.com/George210890/11-04.md/blob/main/rabbitmq10.png)
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
@@ -93,4 +93,4 @@ $ rabbitmqadmin get queue='hello'
 
 *Готовый плейбук разместите в своём репозитории.*
 
-https://github.com/gaming4funNel/sdb-homework-11-04/blob/main/playbook.yml
+https://github.com/George210890/11-04.md/blob/main/playbook.yml
